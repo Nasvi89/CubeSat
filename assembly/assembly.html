@@ -2,7 +2,14 @@
 <html lang="ru"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Сборка · CubeSat</title>
 <script>try{var t=localStorage.getItem('cs-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
-<link rel="stylesheet" href="../style.css"></head>
+<link rel="stylesheet" href="../style.css">
+<style>
+.renders{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px;margin:14px 0 6px}
+.rnd{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px;text-align:center}
+.rnd-img{aspect-ratio:1;display:flex;align-items:center;justify-content:center;background:var(--soft);border:1px dashed var(--line);border-radius:10px;margin-bottom:10px;overflow:hidden}
+.rnd-img .ph{color:var(--muted);font-size:.85rem}
+.rnd-name{font-weight:700;font-size:.95rem;color:var(--text)}
+</style></head>
 <body><main class="wrap">
 <div class="page"><div class="tag">01 · МЕХАНИКА И ЭЛЕКТРОНИКА</div><h1>Сборка</h1>
 <div class="tabs"><button class="tab on" data-t="a">Чертёж модели</button><button class="tab" data-t="b">Инструкция по сборке</button></div>
